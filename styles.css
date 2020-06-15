@@ -1,0 +1,84 @@
+html {
+  --borderset: 2px solid #999;
+  --darkblue: #006;
+  --midblue: #339;
+  --green: #3a3;
+  --midgrey: #666;
+}
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #eee;
+}
+h1 {
+  margin: 0;
+  padding: 0  0 .25em;
+  color: #fff;
+  background: var(--darkblue);
+  text-align: center;
+}
+a {
+  color: inherit;
+}
+h2 a:hover {
+  color: var(--midblue);
+  text-decoration: none;
+}
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+section {
+  margin-top: .5em;
+  overflow: visible;
+  padding: .5em 10px;
+  background: #fff;
+  border: var(--borderset);
+  border-radius: 4px;
+}
+section h2 {
+  font-size: 1em;
+  margin: 0 0 .25em;
+  color: var(--darkblue);
+}
+summary {
+  outline: none;
+  padding: .25em;
+  list-style: none;
+  transition: all .5s;
+  user-select: none;
+}
+summary:hover {
+  cursor: pointer;
+  color: var(--midgrey);
+}
+details {
+  position: relative;
+}
+
+details p {
+  z-index: 1200;
+  font-size: .9em;
+  line-height: 1.5em;
+  max-width: 50em;
+  position: absolute;
+  background: #fff;
+  border: var(--borderset);
+  padding: 1em;
+  left: 4%;
+  right: 4%;
+  top: 2.5em;
+  margin: 0 auto;
+  box-shadow: var(--midgrey) 0 4px 12px;
+}
+details p .date {
+  display: block;
+  padding: 0 0 .5em 0;
+}
+details[open] summary {
+  color: var(--green);
+}
+section:hover {
+  box-shadow: var(--midgrey) 0 0 4px;
+}
