@@ -5,7 +5,7 @@ The complete JSON (paginated, almost 200 pages) is here:
 - first page: https://petition.parliament.uk/petitions.json
 - last page: https://petition.parliament.uk/petitions.json?page=195
 
-This just displays data from the firt page.
+This just displays data from the first page.
 
 ## To do
 
