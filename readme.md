@@ -11,6 +11,7 @@ This just displays data from the first page.
 
 - [ ] tweak responsiveness
 - [ ] paginate to display all JSON data pages
+- [ ] put on a subdomain and add redirects to the GitHub page
 
 ## resources
 
